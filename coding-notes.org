@@ -1,0 +1,60 @@
+* Notes on tools and misc crap I do when coding
+
+** Emacs
+
+   I use [[http://spacemacs.org/][Spacemacs]] as a starter. That's a recent change from Prelude. I like the layers as a configuration pattern and (even though I run in holy mode)
+I like the idea of having evil mode waiting if I want it. My .spacemacs file is [[https://github.com/jgerman/dotfiles][here.]] 
+
+*** Moving Around
+
+    C-x r <spc> Asks you for a register, give it a letter
+    C-x r j <letter> Moves the point to a previously defined register location.
+
+*** Window Management
+
+    As a note the whole Emacs window is called the frame when you split the frame you get windows. I use [[https://github.com/abo-abo/ace-window][ace-window]] to jump around my windows. I usually
+have 3 or 4 windows open. Ace window is bound to C-, for me so I can quickly get to whatever window I want. Note that ace window will not pop up window hints
+when there are only two windows, it will immediately jump to the other window C-x o style. C-, is bound to agenda in org mode, probably need to rebind that. 
+For now C-x o gets me out of the org mode window.
+
+C-left Emacs will often pop up new windows for errors, etc. In some case I want to get back to the old configuration manually, C-left will do this, however
+it doesn't always go exactly back if you're in the popup window. So usually I switch to the window I want then C-left. 
+
+C-left also works if you are switching to a new buffer to quickly edit text or look at something. For example an org file where you're keeping notes. You
+can C-x b <buffer> add a note, then C-left to jump right back to the buffer you were in.
+
+When you C-c C-k a clojure file and get an error you do not need to go C-left to get rid of the compilation error window. Fixing the error and C-c C-k again
+will close the error window automatically if the compililation is successful.
+
+*** Magit
+
+    Magit status in spacemacs is bound to M-m g s
+
+    Magit mode makes working with git better. I don't use it to it's fullest extent yet.
+
+    b b pops up a status window to switch branches
+    b c creates a branch
+    M-x revert-buffer will refresh from file system (useful when switching branches at times)
+    s   on a file will stage a file
+    k   on an unstaged file will discard the changes (the equivalent of checking a file out when you want to reset it)
+    <tab> on a file in a magit window will give you a diff
+
+*** Clojure Editing in Emacs
+    C-c space in a form will auto align (vertically) when appropriate
+
+*** Restclient
+
+    [[https://github.com/pashky/restclient.el][restclient]] give a really nice way to interact with web services. If I'm interacting with a web server as part of a project I'll usually save off a file
+of rest calls I make frequently to test. The ability to have variables in this mode is great.
+
+    C-c execute the rest call under the point
+
+
+*** Packages
+
+    Spacemacs doesn't allow
+
+
+*** Things I need
+   why isn't smarparens strict working
+   need to be able to pprint clojure in a buffer, reformat text
