@@ -53,9 +53,14 @@ well done challenge.
 
 *** The codebase should be functional but incomplete
 
+
     This is important: the code should run and do something. Give the applicant a sandbox to play in, they can start by tweaking small things and getting comfortable. A functional
   codebase invites them into to start contributing, something that doesn't do something from the get go is not interesting. It also needs to be incomplete because we need to make 
   sure there are a lot of opportunities to extend it. Pieces should be unintentionally left out: the AI for checkers doesn't exist, or doesn't take into account some key game state, etc.
+
+*** The challenge should have bugs
+
+    Make sure there are a few bugs to be discovered. Non breaking issues. Does the applicant find any? Do they fix them?
 
 *** The challenge should express the culture of your company
 
