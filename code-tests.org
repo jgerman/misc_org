@@ -1,0 +1,86 @@
+* Coding Challenges for Applicants
+
+This is an early draft and is probably written poorly. 
+
+A lot of companies send out code auditions to potential hires. I've seen some places champion sending them actual work and paying them as
+a consultant. I'm not sure I'm on board with that for a variety of reasons, but I do believe a coding challenge is extremely useful if done in a
+postive way.
+
+The best challenge I ever received as an interviewee was a to implement the game logic for a checkers game. I always look to that as an example of a
+well done challenge. 
+
+** Qualities in an Engineer
+
+   A good coding challenge should provide a jumping off point for discussion in the in depth technical interview. It should provide a way
+   to get an idea of the qualities the applicant possesses. Valuable qualities include:
+  
+   - knowledge
+   - creativity
+   - follow through
+   - problem solving
+   - attitude
+
+** How should a coding challenge be structured?
+
+   Most coding challenges are one sheet tasks that the prospective hire needs to complete. These aren't bad but I think we can do better:
+
+*** The task should be centered around a codebase that the applicant must extend
+
+    Rather than ask an applicant to write code from scratch, give them a codebase to start with. This is not only more like the situation they'll find
+  themselves in if they are hired, it provides a framework for them to work in. Many coding challenges are greenfield and in the language of the applicant's
+  choice. This is not only differen than the work environment they're heading into, it puts more pressure on the employees reviewing their challenge submission.
+
+    Given a known codebase, the employees reviewing the submission can easily see the differences between what the applicant was given and their additions. Bonus
+  points if the submission is via a PR in github and the review is treated like a normal code review, to be walked through during the in-person interview. 
+
+*** The task should be open ended but provide suggestions
+
+    The taks should allow the applicant to determine what tasks, and how far, they need to go. We're looking to see how they improve a codebase. Do they add tests?
+  Do they add new features? Do they re-write chunks to make them more efficient? Whatever path they choose tells you about their style. It also gives you an idea
+  of their engagement level. Did they do the bare minimum? Did the take the time to dot the i's and cross the t's? 
+
+*** The task should invite creativity
+
+    This goes hand in hand with the task being open ended, but we should make sure that we're clear that the suggestions we offer aren't the only possibilities. 
+
+*** The task should be fun
+
+    Engaging the applicant is important, a dry task won't encourage them to give their best. Ideally we want a task that can become a large talking point in the interview:
+  Why did you choose to implement this feature in this manner? Wouldn't it be cool if the code could do this? How did knowing (or not knowing) this tech stack influence your
+  choices? 
+
+  No one will want to talk in depth about a dry challenge.
+
+*** The codebase should be functional but incomplete
+
+    This is important: the code should run and do something. Give the applicant a sandbox to play in, they can start by tweaking small things and getting comfortable. A functional
+  codebase invites them into to start contributing, something that doesn't do something from the get go is not interesting. It also needs to be incomplete because we need to make 
+  sure there are a lot of opportunities to extend it. Pieces should be unintentionally left out: the AI for checkers doesn't exist, or doesn't take into account some key game state, etc.
+
+*** The challenge should express the culture of your company
+
+    Before beginning to send out a code challenge it should undergo an internal code review. Get as many engineers as possible discussing the challenge, making suggestions, and making sure
+  it reflect how you write code internally. Tech stack doesn't matter, but patterns of software do. Is there copied code everywhere? Are comments present but not overwhelming? Is there dead code?
+
+*** The challenge should require minimal effort to get up and running
+
+    This should be obvious. If it takes three hours just to get the project up and running you're asking to much of the applicant. We want them up and running quickly and easily. 
+
+    Also choose a coding environment with fast feedback, and explain in your task description a good way to develop.
+
+** What qualities should the challenge not have?
+
+*** The challenge does not need to be in a tech stack you use or a language the applicant knows
+
+    Engineers should be flexible, they should be interested, they should be willing to learn new things. There is plenty of time to acclimate them to your tech stack, what you're looking with 
+  here is a way to evaluate who they are as an engineer. 
+
+  That being said, don't make the challenge so far out that it's a completely different world than your actual tech stack. We're looking to evaluate applicants, not confuse them.
+
+** Other Benefits of a challenge in this manner
+
+*** Shared experience for every engineer in the company
+
+    I'd highly recommend asking your existing engineers to complete the challenge themselves. This not only gives them a thorough understanding of the project that they will probably be asked to evaluate,
+  it gives everyone a shared experience that is independent of the company's real codebase. Applicant's can ask what the interviewers did on their challenge submission. 
+
