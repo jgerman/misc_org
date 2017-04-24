@@ -52,7 +52,9 @@ well done challenge.
   No one will want to talk in depth about a dry challenge.
 
 *** The codebase should be functional but incomplete
-
+*** Assign an ambassador
+    Volunteer an engineer to answer (reasonable) questions about the challenge. If the applicant is stuck, new to the tech stack, or having trouble
+  starting give them an outlet to get help.
 
     This is important: the code should run and do something. Give the applicant a sandbox to play in, they can start by tweaking small things and getting comfortable. A functional
   codebase invites them into to start contributing, something that doesn't do something from the get go is not interesting. It also needs to be incomplete because we need to make 
