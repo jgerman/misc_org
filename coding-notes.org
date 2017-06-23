@@ -55,6 +55,14 @@ of rest calls I make frequently to test. The ability to have variables in this m
     Spacemacs doesn't allow
 
 
+*** Editing multiple lines at once
+
+    The easy way is to go into cua mode:
+
+    M-x cua-mode
+    C-enter to go into block define
+    move with cursors or arrows to define your rect
+    enter moves you around the corners of the block where you can enter text
 *** Things I need
    why isn't smarparens strict working
    need to be able to pprint clojure in a buffer, reformat text
